@@ -71,6 +71,7 @@ endif
     " Colorscheme plugin"
     Plug 'rose-pine/neovim'
     Plug 'sainnhe/gruvbox-material'
+    Plug 'morhetz/gruvbox'
 		Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'dunstontc/vim-vscode-theme'
     Plug 'chriskempson/base16-vim'
