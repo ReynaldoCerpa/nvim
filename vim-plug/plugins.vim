@@ -25,6 +25,9 @@ endif
 		Plug 'SirVer/ultisnips'
 		Plug 'mlaursen/vim-react-snippets'
 
+		"Autosave plugin"
+		Plug 'Pocco81/AutoSave.nvim'
+
     "Easymotion to move quickly between lines"
     Plug 'easymotion/vim-easymotion'
     "Treesitter"
@@ -52,7 +55,7 @@ endif
     "File Explorer"
     Plug 'ryanoasis/vim-devicons'
 		Plug 'kyazdani42/nvim-web-devicons'
-		Plug 'kyazdani42/nvim-tree.lua'
+		Plug 'scrooloose/NERDTree'
 		"Nerd commenter"
     Plug 'preservim/nerdcommenter'
     "Find differences in file with git repo"

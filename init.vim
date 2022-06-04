@@ -19,11 +19,31 @@ lua <<EOF
     textobjects = { enable = true },
   }
 require('lualine').setup()
-require'nvim-tree'.setup()
 require('telescope').setup({
 	defaults = { file_ignore_patterns = {"node_modules", "autoload"},
 	preview= false}
 })
+
+local autosave = require("autosave")
+
+autosave.setup(
+		{
+				enabled = true,
+				execution_message = "AutoSave: saved at " .. vim.fn.strftime("%H:%M:%S"),
+				events = {"InsertLeave", "TextChanged"},
+				conditions = {
+						exists = true,
+						filename_is_not = {},
+						filetype_is_not = {},
+						modifiable = true
+				},
+				write_all_buffers = false,
+				on_off_commands = true,
+				clean_command_line_interval = 0,
+				debounce_delay = 135
+	}
+)
+
 local coq = require"coq"
   require'lspconfig'.tsserver.setup(coq.lsp_ensure_capabilities())
  	require'lspconfig'.clangd.setup(coq.lsp_ensure_capabilities())
