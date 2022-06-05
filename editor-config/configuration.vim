@@ -12,11 +12,11 @@ set guifont=JetBrainsMono\ Nerd\ Font:h10:cANSI
 set t_Co=256
 set clipboard=unnamedplus
 
-colorscheme gruvbox-material
+colorscheme gruvbox
 let g:OmniSharp_highlighting = 0
 set number
 set relativenumber
-set tabstop=2
+set tabstop=4
 set shiftwidth=2
 set timeoutlen=300
 let g:prettier#autoformat = 1
