@@ -36,6 +36,13 @@ once its done installing all the plugins, run: `:PlugUpdate`
 
 ## 4. Source `init.vim`
 
+You might get a Python error
+
+If so, install the required dependency:
+```bash
+python3 -m pip install --user --upgrade pynvim
+```
+
 The <ins>**first time**</ins> you'll have to do it by hand using the following command:
 `:source ~/.config/nvim/init.vim`
 
