@@ -12,7 +12,7 @@ set guifont=JetBrainsMono\ Nerd\ Font:h10:cANSI
 set t_Co=256
 set clipboard=unnamedplus
 
-colorscheme gruvbox
+colorscheme deep-space
 let g:OmniSharp_highlighting = 0
 set number
 set relativenumber
