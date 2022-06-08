@@ -13,6 +13,7 @@ inoremap kj <Esc>
 nnoremap H gT
 nnoremap L gt
 nnoremap <C-n> :NERDTreeToggle<CR>
+nmap <leader>gg gg=G<CR>
 nmap <leader>rs :source ~/.config/nvim/init.vim<CR>
 "Files in directory"
 nmap <leader>f :Telescope find_files<CR>
