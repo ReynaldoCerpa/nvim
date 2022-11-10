@@ -57,6 +57,7 @@ nnoremap <leader>jj <C-w><C-w><CR>
 nmap <leader>S :%s//g<left><left>
 nmap <leader>ccs :colorscheme<space>
 
-nmap <leader>cs :OmniSharpCodeFormat<CR>
+"Check https://github.com/preservim/nerdcommenter"
+"for the keymappings for code commenting related funcionality"
 
 
