@@ -23,6 +23,7 @@ let g:prettier#autoformat = 1
 let mapleader = " "
 let g:user_emmet_leader_key = ","
 let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
 hi SignColumn guibg=NONE ctermbg=NONE
 hi LineNr ctermbg=NONE guibg=NONE
 hi Normal ctermbg=NONE guibg=NONE
